@@ -1,14 +1,14 @@
 [features]
 seeds = false
 skip-lint = false
-[programs.localnet]
-chainlink_solana_dapp = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+chainlink_solana_dapp = "8UaiXxMJrJ13MxD139ShjpqYuZrHZAPGzzsa7m1eaiBR"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "/Users/erikmacinnis/.config/solana/id.json"
 
 [scripts]
